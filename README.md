@@ -1,3 +1,283 @@
-# www.Brothers4Life-BTCpeng.com
-is a decentralized 10 asset rebalancing pool index token that is composed of  8 Top crypto currency in the world and 2 newly born tokens all in one- 
-BTC, ETH, BNB, XRP, SOL, SHIB, PEPE, LEMON, HSBC.AU AND FOOD = BTCpeng. One token to rule them all! 
+<!DOCTYPE html>
+<!-- saved from url=(0075)file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Brothers4Life-BTCpeng Whitepaper</title>
+<style>
+/* Background rotation filenames declared for clarity */
+:root {
+--bg1: url('space2.png');
+--bg2: url('space3.png');
+}
+
+
+body {
+font-family: "Segoe UI", sans-serif;
+line-height: 1.7;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+
+body.dark { color: #ddd; background: #0a0a0f; }
+body.dark section, body.dark nav {
+background: rgba(15, 15, 25, 0.9);
+box-shadow: 0 0 20px rgba(0, 255, 231, 0.2);
+}
+body.dark h2 { border-bottom: 2px solid #00ffe7; color: #ffcc00; text-shadow: 0 0 8px #ffcc00; }
+
+
+body.light { color: #222; background: #fff; }
+body.light section, body.light nav { background: #fff; border: 1px solid #ddd; box-shadow: none; }
+body.light h2 { border-bottom: 2px solid #ccc; color: #222; }
+
+
+#cover {
+display: flex; flex-direction: column; justify-content: center; align-items: center;
+height: 100vh; background: radial-gradient(circle at center, #111 0%, #000 100%);
+text-align: center; color: #fff;
+}
+#cover img { max-width: 320px; margin-bottom: 30px; filter: drop-shadow(0 0 25px #ffcc00); }
+#cover h1 { font-size: 3em; margin: 0; color: #00ffe7; text-shadow: 0 0 20px #00ffe7; }
+#cover p { font-size: 1.3em; margin-top: 15px; color: #bbb; }
+#scroll-down { margin-top: 50px; font-size: 1.2em; color: #ffcc00; animation: bounce 1.5s infinite; }
+@keyframes bounce { 0%,100%{transform:translateY(0);} 50%{transform:translateY(8px);} }
+
+
+nav { max-width: 1100px; margin: auto; margin-top: 20px; padding: 25px; border-radius: 12px; }
+nav ul { list-style: none; padding-left: 0; font-size: 1.1em; }
+nav li { margin: 10px 0; }
+nav a { text-decoration: none; color: #00ffe7; }
+
+
+section { padding: 40px 60px; max-width: 1100px; margin: auto; margin-top: 40px; border-radius: 12px; }
+.section-logo { text-align: center; margin-bottom: 20px; }
+.section-logo img { max-width: 180px; filter: drop-shadow(0 0 15px #ffcc00); }
+
+
+.asset-logos { display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin: 30px 0; }
+.asset-logos img { width: 90px; height: 90px; padding: 8px; }
+
+
+.box { background: #111; border: 1px solid #00ffe7; padding: 20px; margin: 20px 0; border-radius: 10px; }
+
+
+table { width: 100%; border-collapse: collapse; margin: 25px 0; }
+table th, table td { border: 1px solid #999; padding: 12px; text-align: center; }
+
+
+.gov-diagram { display: flex; justify-content: center; align-items: center; margin-top: 25px; gap: 20px; flex-wrap: wrap; }
+.gov-diagram .step { background: #111; border: 2px solid #00ffe7; color: #eee; padding: 15px 25px; border-radius: 10px; box-shadow: 0 0 12px rgba(0,255,231,0.4); font-weight: bold; min-width: 160px; text-align: center; }
+.gov-diagram .arrow { font-size: 2em; color: #ffcc00; text-shadow: 0 0 8px #ffcc00; }
+
+
+footer { text-align: center; padding: 25px; font-size: 0.9em; margin-top: 60px; border-top: 2px solid #00ffe7; color: #888; }
+footer img { max-width: 160px; margin-top: 10px; opacity: 0.9; }
+
+
+#backToTop { position: fixed; bottom: 25px; right: 25px; background: #00ffe7; color: #111; border: none; border-radius: 50%; width: 55px; height: 55px; font-size: 1.5em; cursor: pointer; box-shadow: 0 0 15px #00ffe7; display: none; }
+#themeToggle { position: fixed; top: 20px; right: 20px; background: #ffcc00; border: none; border-radius: 8px; padding: 10px 15px; cursor: pointer; font-weight: bold; box-shadow: 0 0 10px #ffcc00; }
+
+
+.tooltip { position: relative; cursor: help; border-bottom: 1px dotted #ffcc00; }
+.tooltip .tooltiptext { visibility: hidden; width: 280px; background-color: #111; color: #fff; text-align: left; padding: 10px; border-radius: 8px; border: 1px solid #00ffe7; position: absolute; z-index: 1; bottom: 125%; left: 50%; margin-left: -140px; opacity: 0; transition: opacity 0.3s; font-size: 0.9em; }
+.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
+  </style>
+</head>
+
+<body class="dark">
+
+  <!-- Cover Page -->
+  <div id="cover">
+    <h1>Brothers4Life</h1>
+    <img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo">
+    <h2>B T C peng</h2>
+    <p>Decentralized 10 asset rebalancing pool Index-Token<br>Powered by the Community, Protected by 48h Timelock</p>
+    <div id="scroll-down">▼ Scroll Down ▼</div>
+  </div>
+
+  <!-- Table of Contents -->
+  <nav id="toc">
+    <h2>📑 Table of Contents</h2>
+    <ul>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#abstract">Abstract</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#features">Core Features</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#bootstrapper">The Bootstrapper</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#tokenomics">Tokenomics</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#earnings">Depositor Earnings &amp; Fee Model</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#elcandao">El Candao: Timelock</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#redemption">Redemption Mechanics</a></li>
+      <li><a href="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/index.html#impact">Community Impact Wallets</a></li>
+    </ul>
+  </nav>
+
+  <!-- Abstract -->
+  <section id="abstract">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>Abstract</h2>
+    <p>Brothers4Life-BTCpeng is a decentralized 10 asset rebalancing index-token built on the BNB Smart Chain (BEP-20). Exposure: BTC, ETH, BNB, SOL, XRP, DOGE, SHIB, PEPE, LEMON, and FOOD.</p>
+    <div class="asset-logos">
+      <img src="./FOODEX-BTCpeng Whitepaper_files/btc-transparent.png"><img src="./FOODEX-BTCpeng Whitepaper_files/eth-transparent.png"><img src="./FOODEX-BTCpeng Whitepaper_files/bnb-transparent.png">
+      <img src="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/solana.png"><img src="./FOODEX-BTCpeng Whitepaper_files/xrp-transparent.png"><img src="./FOODEX-BTCpeng Whitepaper_files/doge-transparent.png">
+      <img src="./FOODEX-BTCpeng Whitepaper_files/shib-transparent.png"><img src="./FOODEX-BTCpeng Whitepaper_files/pepe-transparent.png"><img src="./FOODEX-BTCpeng Whitepaper_files/Lemon.png"><img src="./FOODEX-BTCpeng Whitepaper_files/HSBCAu.png">
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>Core Features</h2>
+    <div class="box">✨ One Token to Rule Them All: 10 tokens, auto-rebalanced.</div>
+    <div class="box">⚖️ The Rebalancing Pool: Deposit BNB → split into 10 assets → BTCpeng is minted.</div>
+    <div class="gov-diagram">
+      <div class="step">💰 BNB Deposit</div>
+      <div class="arrow">➡️</div>
+      <div class="step">⚖️ Basket Rebalance<br>(BTC, ETH, BNB, SOL, XRP, DOGE, SHIB, PEPE, LEMON and FOOD)</div>
+      <div class="arrow">➡️</div>
+      <div class="step">🐧 BTCpeng Minted</div>
+    </div>
+  </section>
+
+  <!-- Bootstrapper -->
+  <section id="Bootstrapper">
+    <div class="section-logo"><img src="./Brothers4Life-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>The Bootstrapper</h2>
+    <p>The first depositor sets the base mint ratio, holds initial supply, and earns the Bootstrapper Award.</p>
+  </section>
+
+  <!-- Tokenomics -->
+  <section id="tokenomics">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>Tokenomics</h2>
+    <div class="box">
+      Initial Supply: 0 <br>
+      Mint Ratio: 1000 BNB → 800 BTCpeng <br>
+      Distribution: 700 BTCpeng to Depositor, 100 BTCpeng to Founders/Team <br>
+      Burnable: Yes <br>
+      Minting: Only via deposits <br>
+      Governance: All critical changes go through <b>El Candao Timelock</b>
+      <p><b>Initial Supply:</b> 0 (all tokens minted only through deposits)</p>
+      <p><b>Minting Ratio:</b> 1000 BNB → 800 BTCpeng</p>
+      <ul>
+        <li>700 BTCpeng → Depositor (87.5%)</li>
+        <li>100 BTCpeng → 5 Founders of BTCpeng (12.5%)</li>
+      </ul>
+      <p><b>Backing Allocation:</b></p>
+      <ul>
+        <li>BTC: 23%</li>
+        <li>ETH: 19%</li>
+        <li>BNB: 17%</li>
+        <li>XRP: 16%</li>
+        <li>SOL: 10%</li>
+        <li>LEMON: 4.5%</li>
+        <li>PEPE: 2.5%</li>
+        <li>SHIB: 2.5%</li>
+        <li>FOOD: 2%</li>
+        <li>HSBC.Au: 2%</li>
+      </ul>
+      <div class="chart-container">
+        <canvas id="allocationChart" width="400" height="400"></canvas>
+      </div>
+      <script>
+        const ctx = document.getElementById('allocationChart');
+        new Chart(ctx, {
+          type: 'pie',
+          data: {
+            labels: ['BTC 23%', 'ETH 19%', 'BNB 17%', 'XRP 16%', 'SOL 10%', 'LEMON 4.5%', 'PEPE 2.5%', 'SHIB 2.5%', 'FOOD 2%', 'HSBC.Au 2%'],
+            datasets: [{
+              data: [23, 19, 17, 16, 10, 4.5, 2.5, 2.5, 2, 2],
+              backgroundColor: [
+                '#f7931a','#627eea','#f3ba2f','#00aaec','#14f195',
+                '#ffd700','#6bdc6b','#f984ef','#ff6600','#999999'
+              ],
+              borderColor: '#000',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            plugins: { legend: { labels: { color: '#fff' } } }
+          }
+        });
+      </script>
+      <p><b>Burnable:</b> Yes. Burning BTCpeng returns proportional share of the 10 assets from the pool.</p>
+      <p><b>Governance:</b> All governance changes, including weights of the 10 tokens, pass through a mandatory 48-hour <b>El Candao Timelock</b>.</p>
+    </section>
+	  
+      ➝ <span class="tooltip"><b>48-Hour Waiting Period before changes to take effect</b>
+        <span class="tooltiptext">Applies to: Fees, Weights, Fee Collector.<br>✅ No change can bypass this delay.</span>
+      </span>
+    </div>
+  </section>
+
+  <!-- Depositor Earnings & Fee Model -->
+  <section id="earnings">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>Depositor Earnings &amp; Fee Model</h2>
+    <p style="color:#aaa;">BTCpeng grows through deposits and ongoing pool activity plus the value accrual for all holders:</p>
+    <h3 style="color:#ffcc00;">Minting</h3>
+    <ul style="color:#eee;">
+      <li>For every 1000 BNB deposit → 800 BTCpeng minted.</li>
+      <li>➡️ 700 BTCpeng to Depositor (87.5%).</li>
+      <li>➡️ 100 BTCpeng to Founders/Team (12.5%).</li>
+      <li>Each BTCpeng is backed by ~1.25 BNB at creation (asset-secured).</li>
+    </ul>
+    <h3 style="color:#ffcc00;">Fee Distribution</h3>
+    <p style="color:#aaa;">From each 40% skim on join/swap/exit fees:</p>
+    <ul style="color:#eee;">
+      <li>✅ 50% → Pool (value accrual for all holders).</li>
+      <li>✅ 40% → Founders/Team/Opex.</li>
+      <li>✅ 5% → Children’s Wallet.</li>
+      <li>✅ 5% → FOODEX Project Wallet.</li>
+    </ul>
+  </section>
+
+  <!-- El Candao -->
+  <section id="elcandao">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>El Candao: TimeLock</h2>
+    <p>All governance actions require timelock delay. Once El Candao is engaged, the protocol becomes immutable.</p>
+    <div class="gov-diagram">
+      <div class="step">📜 Proposal</div>
+      <div class="arrow">➡️</div>
+      <div class="step">⏳ 48h Timelock</div>
+      <div class="arrow">➡️</div>
+      <div class="step">✅ Execution</div>
+    </div>
+  </section>
+
+  <!-- Redemption -->
+  <section id="redemption">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>Redemption Mechanics</h2>
+    <p>Burn BTCpeng → receive proportional share of BTC, ETH, BNB, SOL, XRP, DOGE, SHIB, PEPE, LEMON and FOOD.  
+    Supply drops, pool value stays → remaining BTCpeng appreciates.</p>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact">
+    <div class="section-logo"><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="BTCpeng Logo"></div>
+    <h2>Community Impact Wallets</h2>
+    <ul>
+      <li>💖 Children’s Donation Wallet: Food, shelter, education.</li>
+      <li>🌾 FOODEX Global Project: Tools, Training, Empowerment.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    🐧 FOODEX-BTCpeng Whitepaper © 2025 — Immutable after El Candao
+    <br><img src="./FOODEX-BTCpeng Whitepaper_files/BTCpengOFFICIAL.png" alt="FOODEX Logo"><br><br>
+    🌐 <a href="https://www.foodex-btcpeng.com/" target="_blank" style="color:#00ffe7;">www.foodex-btcpeng.com</a><br><br>
+    📈 <a href="https://www.foodex-btcpeng.com/investors" target="_blank" style="color:#ffcc00;">Investor Portal</a><br><br>
+    💬 Telegram: <a href="https://t.me/foodexbtcpeng" target="_blank" style="color:#00ffe7;">t.me/foodexbtcpeng</a><br>
+    <img src="file:///C:/Users/Owner/Desktop/FOODEX-BTCpeng%20Whitepaper_files/telegramQR.png" alt="Join Telegram" style="max-width:160px; margin-top:10px; border-radius:12px; box-shadow:0 0 12px #00ffe7;"><br>
+    <div style="margin-top:20px;">
+      <a href="https://twitter.com/YourProjectHandle" target="_blank" style="margin:0 10px; color:#00ffe7; font-size:1.8em;"><i class="fab fa-twitter"></i></a>
+      <a href="https://t.me/foodexbtcpeng" target="_blank" style="margin:0 10px; color:#00ffe7; font-size:1.8em;"><i class="fab fa-telegram"></i></a>
+      <a href="https://discord.gg/YourInviteLink" target="_blank" style="margin:0 10px; color:#00ffe7; font-size:1.8em;"><i class="fab fa-discord"></i></a>
+    </div>
+  </footer>
+
+
+</body></html>
